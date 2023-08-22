@@ -1,0 +1,9 @@
+water/results/example/best_model.pth
+water/results/example/last_model.pth
+water/results/example/metrics_batch_val.csv
+water/results/example/log
+water/results/example/metrics_batch_train.csv
+water/results/example/metrics_epoch.csv
+water/results/example/trainer.pth
+water/train/Report-74951.out
+*/data.pth
