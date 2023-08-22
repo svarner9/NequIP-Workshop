@@ -1,0 +1,29 @@
+Processing dataset...
+Using device: cuda
+Loading dataset... 
+Done!
+    loading dataset took 47.7685s
+    loaded dataset of size 560 and sampled --n-data=1 frames
+    benchmark frames statistics:
+         number of atoms: 384
+         number of types: 2
+          avg. num edges: 26382.0
+         avg. neigh/atom: 68.703125
+Building model... 
+    building model took 1.1942s
+    model has 1091976 weights
+    model has 1091976 trainable weights
+    model weights and buffers take 4.17 MB
+Compile...
+    compilation took 0.2398s
+Warmup...
+    6 calls of warmup took 5.3001s
+Benchmarking...
+ -- Results --
+PLEASE NOTE: these are speeds for the MODEL, evaluated on --n-data=1 configurations kept in memory.
+    \_ MD itself, memory copies, and other overhead will affect real-world performance.
+
+The average call took 17.55ms
+Assuming linear scaling — which is ALMOST NEVER true in practice, especially on GPU —
+    \_ this comes out to 45.7031 us/atom/call
+For this system, at a 1.00fs timestep, this comes out to 4.92 ns/day

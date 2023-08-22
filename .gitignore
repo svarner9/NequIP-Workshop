@@ -6,4 +6,4 @@ water/results/example/metrics_batch_train.csv
 water/results/example/metrics_epoch.csv
 water/results/example/trainer.pth
 water/train/Report-74951.out
-*/data.pth
+**/data.pth
