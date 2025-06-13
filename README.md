@@ -1,6 +1,10 @@
 # nequip-examples
 A tutorial with examples of how to train and use the Allegro (NequIP) machine learning force field.
 
+<p align="center">
+<img src="water.png" alt="water" width="400"/>
+</p>
+
 ## Program installation
 We will be using conda to install the necessary python packages that will be used in conjunction with the Allegro (NequIP) machine learning force field. Install conda now if you do not have it already.
 
